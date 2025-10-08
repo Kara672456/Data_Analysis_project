@@ -83,7 +83,7 @@ plt.show()
 ```
 
 ### Results
-![Likelihood of Skills Requested in the IND Job Postings](images/Likelihood_of_Skills_Requested_in_IND_job_Postings.png)
+![Likelihood of Skills Requested in the IND Job Postings](images/Likelihood_of_Skills_Requested_in_IND_job_Posting.png)
 
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
@@ -208,7 +208,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_IND_with_Coloring_by_Technology.png)   
+![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_IND.png)   
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the IND.*
 
 #### Insights:
@@ -243,7 +243,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the IND with Coloring by Technology](3_Project\images\Most_Optimal_Skills_for_Data_Analysts_in_the_US_with_Coloring_by_Technology.png)  
+
+![Most Optimal Skills for Data Analysts in the IND with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_IND_with_Coloring_by_Technology.png)  
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
 #### Insights:
