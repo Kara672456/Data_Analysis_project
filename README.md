@@ -84,7 +84,7 @@ plt.show()
 
 ### Results
 
-![alt text](image.png)
+![Likelihood of Skills Requested in the IND Job Postings](3_Project\images\Likelihood_of_Skills_Requested_in_IND_Job_Postings.png)
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
@@ -117,7 +117,7 @@ plt.show()
 
 ### Results
 
-![alt text](image-1.png)  
+![Trending Top Skills for Data Analysts in the IND](3_Project\images\Trending_Top_Skills_for_Data_Analysts_in_the_IND.png)  
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights:
@@ -134,7 +134,7 @@ View my notebook with detailed steps here: [4_Salary_Analysis](4_Salary_Analysis
 #### Visualize Data 
 
 ```python
-sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
+sns.boxplot(data=df_IND_top6, x='salary_year_avg', y='job_title_short', order=job_order)
 
 ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
@@ -144,7 +144,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions of Data Jobs in the US](images/Salary_Distributions_of_Data_Jobs_in_the_US.png)  
+![Salary Distributions of Data Jobs in the IND](3_Project\images\Salary_Distributions_of_Data_Jobs_in_the_IND.png) 
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
@@ -178,8 +178,8 @@ plt.show()
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_US.png)
-*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the IND](3_Project\images\Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_US.png)
+*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the IND.*
 
 #### Insights:
 
@@ -208,8 +208,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)    
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+![Most Optimal Skills for Data Analysts in the IND](3_Project\images\Most_Optimal_Skills_for_Data_Analysts_in_the_IND.png)    
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the IND.*
 
 #### Insights:
 
@@ -243,7 +243,7 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US_with_Coloring_by_Technology.png)  
+![Most Optimal Skills for Data Analysts in the IND with Coloring by Technology](3_Project\images\Most_Optimal_Skills_for_Data_Analysts_in_the_US_with_Coloring_by_Technology.png)  
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
 
 #### Insights:
