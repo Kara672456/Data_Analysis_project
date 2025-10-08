@@ -83,7 +83,7 @@ plt.show()
 ```
 
 ### Results
-![Likelihood of Skills Requested in the IND Job Postings](images/Likelihood_of_Skills_Requested_in_IND_job_Posting.png)
+![alt text](image.png)
 
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
